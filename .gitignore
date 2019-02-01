@@ -7,6 +7,8 @@ __pycache__/
 *.so
 # Ignore API KEYS
 *.txt
+googleapi.txt
+YELPKEY.txt
 
 
 # Distribution / packaging
