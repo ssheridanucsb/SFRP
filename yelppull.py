@@ -19,13 +19,19 @@ l = len(initial_data.index)
 yelp_list = []
 
 #iterate over data frame and pull yelp info for each entry
-for index in initial_data.index:
-    d = data_collector(initial_data, index, YELP_KEY)
-    #add entry to yelp yelp_list
-    yelp_list.append(d)
-    #print percent completion
-    print("******* " + str(index / l * 100) + "% *******")
+try:
+    for index in initial_data.index:
+        d = data_collector(initial_data, index, YELP_KEY)
+        #add entry to yelp yelp_list
+        yelp_list.append(d)
+        #print percent completion
+        print("******* " + str(index / l * 100) + "% *******")
+except:
+    #if theres a connection failure dump the data 
+    with open('apipull', 'w') as fout:
+        json.dump(yelp_list, fout)
 
-#dump list into a json like txt file 
+
+#dump list into a json like txt file
 with open('apipull', 'w') as fout:
     json.dump(yelp_list, fout)
