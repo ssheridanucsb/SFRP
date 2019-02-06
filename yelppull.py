@@ -25,9 +25,10 @@ try:
         #add entry to yelp yelp_list
         yelp_list.append(d)
         #print percent completion
-        print("******* " + str(index / l * 100) + "% *******")
+        p = index / l * 100
+        print("******* %.3f%% *******" % p)
 except:
-    #if theres a connection failure dump the data 
+    #if theres a connection failure dump the data
     with open('apipull', 'w') as fout:
         json.dump(yelp_list, fout)
 

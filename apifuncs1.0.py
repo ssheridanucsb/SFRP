@@ -1,3 +1,6 @@
+#built these while desiging DataCollector and yelppull
+#use yelppull/DataCollector instead of these
+
 def business_search(name, address, lat, long, api_key):
     """matches business to yelp data base by name and location parameters"""
 
