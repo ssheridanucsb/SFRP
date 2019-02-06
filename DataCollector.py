@@ -1,3 +1,7 @@
+import requests
+import json
+import pandas as pd
+
 def data_collector(dataframe, index, api_key):
     """Collects Data From Yelp"""
     #takes data frame and index as input. Outputs Dictionary with yelp information
@@ -6,10 +10,10 @@ def data_collector(dataframe, index, api_key):
 
     #datafame col names must be in original formating
     #extract search information form data frame
-    name = raw_score_data.iloc[index]['business_name']
-    address = raw_score_data.iloc[index]['business_address']
-    lat = raw_score_data.iloc[index]['business_latitude']
-    long = raw_score_data.iloc[index]['business_longitude']
+    name = dataframe.iloc[index]['business_name']
+    address = dataframe.iloc[index]['business_address']
+    lat = dataframe.iloc[index]['business_latitude']
+    long = dataframe.iloc[index]['business_longitude']
 
 
     url_match = "https://api.yelp.com/v3/businesses/matches"
