@@ -7,7 +7,7 @@ import caffeine #prevent OSX from sleeping while the script is running
 #load API Keys
 with open('keys.json') as file:
     keys = json.load(file)
-YELP_KEY = keys.get('yelp2')
+YELP_KEY = keys.get('yelp')
 
 #load the reference data frame
 initial_data = pd.read_csv('clean_data_initial.csv')
