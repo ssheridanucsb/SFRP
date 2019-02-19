@@ -1,7 +1,7 @@
-# SFRP
+# San Francisco Restaurant Project
 ## Data Analysis of San Francisco Restaurants 
 
-## Authors: Sam Sheridan, Sudarshan Kannan, Ronak Parikh, Alex Xu, Inwoong Bae
+### Authors: Sam Sheridan, Sudarshan Kannan, Ronak Parikh, Alex Xu, Inwoong Bae
 
 ## Abstract
 We aim to predict the Yelp user rating (stars) that a user will leave based off health code data from the city of San Francisco and restaurant information collected from the Yelp Fusion API. We matched the San Francisco Restaurant Health Data with their respective yelp information to build a combined data frame. This data frame serves the basis for our analysis and modeling. 
