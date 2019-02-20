@@ -20,8 +20,8 @@ The initial data set contained multiple entries for each business based on the t
 ### EDA and Initial Graphical Analysis
 
     <img src="riskcount.png" alt="drawing" width="500"/>
-    <img src="inspectionscores.png" alt="dewaing" width="500"/>
-    <img src="yelpstars.png" alt="dewaing" width="500"/>
+    <img src="inspectionscores.png" alt="drawing" width="500"/>
+    <img src="yelpstars.png" alt="drawing" width="500"/>
 
 
 ### Future works 
