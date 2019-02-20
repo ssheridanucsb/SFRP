@@ -26,3 +26,4 @@ The initial data set contained multiple entries for each business based on the t
 
 
 ### Future works 
+We are in the process of building a predictive model for restaurant ratings. Our success wtih regessors has been dismal so far as our varisbles lack strong correlation. We're exhausting our regression options and are attemping Random Forest Models before we move on to a nueral network for our final modeling attempt. 
