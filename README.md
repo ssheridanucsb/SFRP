@@ -20,5 +20,5 @@ The initial data set contained multiple entries for each business based on the t
 ### EDA and Building the Model
 ***IN PROGRESS***
 
-<img src="riskcount.png" alt="drawing" width="200"/>
+<img src="riskcount.png" alt="drawing" width="500"/>
 
