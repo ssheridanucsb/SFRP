@@ -22,6 +22,7 @@ The initial data set contained multiple entries for each business based on the t
   <img src="riskcount.png" alt="drawing" width="500"/>
   <img src="inspectionscores.png" alt="drawing" width="500"/>
   <img src="yelpstars.png" alt="drawing" width="500"/>
+  <img src="inspectionscoresrisk.png" alt="drawing" width="500"/> 
 
 
 ### Future works 
