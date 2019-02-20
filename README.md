@@ -22,7 +22,11 @@ The initial data set contained multiple entries for each business based on the t
   <img src="riskcount.png" alt="drawing" width="500"/>
   <img src="inspectionscores.png" alt="drawing" width="500"/>
   <img src="yelpstars.png" alt="drawing" width="500"/>
-  <img src="inspectionscoresrisk.png" alt="drawing" width="500"/> 
 
 
-### Future works 
+### Summary and Resource
+Our goal for this project is to examine how inspection scores of restaurants in San Francisco are affected by several factors such as rating, location, price, zip code, etc. Raw dataset comes from SF government website(https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i?fbclid=IwAR1qtvyUBjfPmHnTsz2YPJMeyNlz1hdtbnbFckd1H5jVbDcVlk8r9UrVurg) and we query the raw data through Yelp API to obtain extended dataset. We then clean up the dataset, visualize it with Python packages and Google maps' API. We lastly build Random Forest model between inspection score and other elements.
+
+### Future works
+We will build regression/machine learning models and test the models several times to accurate the numbers from the models.
+
