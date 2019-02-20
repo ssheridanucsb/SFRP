@@ -19,6 +19,12 @@ The initial data set contained multiple entries for each business based on the t
 
 ### EDA and Building the Model
 ***IN PROGRESS***
+<div class="row">
+  <div class="column">
+    <img src="riskcount.png" alt="drawing" width="500">
+  </div>
+  <div class="column">
+    <img src="inspectionscores.png" alt="dewaing" width="500">
+  </div>
 
-<img src="riskcount.png" alt="drawing" width="500"/>
-<img src="inspectionscores.png" alt="drawing" width="500"/>
+
