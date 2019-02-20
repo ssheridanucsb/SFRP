@@ -21,4 +21,4 @@ The initial data set contained multiple entries for each business based on the t
 ***IN PROGRESS***
 
 <img src="riskcount.png" alt="drawing" width="500"/>
-
+<img src="inspectionscores.png" alt="drawing" width="500"/>
