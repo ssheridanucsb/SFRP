@@ -26,5 +26,6 @@ The initial data set contained multiple entries for each business based on the t
   <div class="column">
     <img src="inspectionscores.png" alt="dewaing" width="500">
   </div>
+<div>
 
 
